@@ -1,6 +1,6 @@
 # react_django_template
 
-##frontend
+## frontend
 
 ```
 cd front/react_front
@@ -9,7 +9,12 @@ cd front/react_front
 ```
 yarn
 ```
-##
+## backend
+api/.env
+```
+SECRET_KEY=xxxx
+DEBUG=True
+```
 
 ## start containers
 ```
