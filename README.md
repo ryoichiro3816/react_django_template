@@ -1,6 +1,7 @@
 # react_django_template
 
-## start containers
+##frontend
+
 ```
 cd front/react_front
 ```
@@ -8,7 +9,9 @@ cd front/react_front
 ```
 yarn
 ```
+##
 
+## start containers
 ```
 docker-compose up 
 ```
