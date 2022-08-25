@@ -19,3 +19,9 @@ services:
     # command: sh -c "cd react_front && yarn start"
     ports:
       - "3000:3000"
+    depends_on:
+      - db
+  db:
+    image: postgres
+    environment:
+      - POSTGRES_PASSWORD=postgres  
